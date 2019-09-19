@@ -1,0 +1,10 @@
+#rigby, #benson, #skips, #date {
+  display: none;
+}
+
+#name, #height, #fav-city, #skills, #personality {
+  display: block;
+}
+.btn {
+  margin-top: 10px;
+}

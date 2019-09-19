@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Car insurance</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Find out your dream date!</h1>
+
+      <form id="celebrity">
+        <label for="name">your name:</label>
+        <input id="name" type="text">
+        <label for="personality">personalities:</label>
+        <select id="personality">
+          <option value="1">funny</option> //rigby
+          <option value="2">serious</option> //benson
+          <option value="3">calm</option> //skips
+        </select>
+        <label for="height">what is your height:</label>
+        <select id="height">
+          <option value="1">Short</option> //rigby
+          <option value="2">Medium</option> //skips
+          <option value="3">Tall</option> //benson
+        </select>
+        <label for="fav-city">what is your fav city:</label>
+        <select id="fav-city">
+          <option value="1">Chicago</option> //rigby
+          <option value="2">Portland</option> //benson
+          <option value="3">vancouver</option> //skips
+        </select>
+        <label for="skills">what are your skills:</label>
+        <select id="skills">
+          <option value="1">Builder</option> //rigby
+          <option value="2">Smart</option> //benson
+          <option value="3">Strong</option> //skips
+        </select>
+
+        <button type="submit" class="btn btn-primary">find your regular character</button>
+      </form>
+
+      <div id="rigby">
+          <img src="img/rigby.jpg" alt="">
+      </div>
+
+      <div id="skips">
+        <img src="img/skip.jpeg" alt="">
+      </div>
+
+      <div id="benson">
+        <img src="img/benson.jpeg" alt="">
+      </div>
+
+      <div id="date">
+        <p><span class="name"></span>, your character is....<span class="resolve"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
